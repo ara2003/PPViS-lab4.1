@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/programing/python/projects/Test/src/system/AgeSystem.py</OriginalElement>
+  <nodes>
+    <node x="759.0" y="1413.5">src.component.EatComponent.EatComponent</node>
+    <node x="215.99261992619904" y="1956.0">src.component.LeafMatiralComponent.LeafMaterialComponent</node>
+    <node x="-620.0719557195571" y="1235.9114391143912">src.world_component.WorldComponent.WorldComponent</node>
+    <node x="753.0" y="1127.5">src.component.AgeComponent.AgeComponent</node>
+    <node x="710.0" y="839.5">src.component.PositionComponent.PositionComponent</node>
+    <node x="792.0" y="1556.5">src.component.Herbivore.Herbivore</node>
+    <node x="821.0" y="1630.5">src.component.Move.Move</node>
+    <node x="16.0" y="1112.5">src.system.UpdateFieldSystem.UpdateFieldSystem</node>
+    <node x="-535.0" y="1300.7057195571956">src.world_component.FieldWorldComponent.FieldWorldComponent</node>
+    <node x="61.0" y="1482.5">src.system.DeadSystem.DeadSystem</node>
+    <node x="60.0" y="1704.5">src.system.MoveSystem.MoveSystem</node>
+    <node x="446.0" y="1445.5">src.system.System.System</node>
+    <node x="869.9963099630995" y="2064.8357933579337">src.component.Wolf.Wolf</node>
+    <node x="750.0" y="1704.5">src.component.PrintComponent.PrintComponent</node>
+    <node x="7.0" y="1778.5">src.system.ReproductionSystem.ReproductionSystem</node>
+    <node x="-155.0" y="751.5">src.entity.World.World</node>
+    <node x="744.0" y="1053.5">src.component.DeadComponent.DeadComponent</node>
+    <node x="195.0" y="910.5">src.component.HPDeadComponent.HPDeadComponent</node>
+    <node x="761.0" y="1270.5">src.component.HPComponent.HPComponent</node>
+    <node x="45.0" y="1556.5">src.system.SubAgeSystem.SubAgeSystem</node>
+    <node x="0.0" y="1260.5">src.system.PhotosynthesisSystem.PhotosynthesisSystem</node>
+    <node x="730.0" y="1968.5">src.component.MatiralComponent.MaterialComponent</node>
+    <node x="768.0" y="1825.5">src.component.Reproduction.Reproduction</node>
+    <node x="70.0" y="1630.5">src.system.AgeSystem.AgeSystem</node>
+    <node x="67.0" y="1186.5">src.system.PrintSystem.PrintSystem</node>
+    <node x="1175.0" y="1502.25">src.component.Component.Component</node>
+    <node x="76.0" y="1408.5">src.system.EatSystem.EatSystem</node>
+    <node x="825.0" y="979.5000000000001">src.component.Plant.Plant</node>
+    <node x="19.0" y="1334.5">src.system.GemmationSystem.GemmationSystem</node>
+    <node x="-340.06273062730634" y="1701.5">src.entity.Entity.Entity</node>
+    <node x="209.99261992619904" y="1882.0">src.component.MeatMatiralComponent.MeatMaterialComponent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="src.component.Herbivore.Herbivore" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="135.5" y="0.0" />
+      <point x="1150.0" y="1583.5" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.component.LeafMatiralComponent.LeafMaterialComponent" target="src.component.MatiralComponent.MaterialComponent" relationship="REALIZATION">
+      <point x="226.500380073801" y="0.0" />
+      <point x="-197.5" y="0.0" />
+    </edge>
+    <edge source="src.component.MatiralComponent.MaterialComponent" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="197.5" y="0.0" />
+      <point x="1150.0" y="1983.0" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.component.DeadComponent.DeadComponent" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="183.5" y="0.0" />
+      <point x="1150.0" y="1080.5" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.world_component.FieldWorldComponent.FieldWorldComponent" target="src.world_component.WorldComponent.WorldComponent" relationship="REALIZATION">
+      <point x="242.5" y="0.0" />
+      <point x="-665.3394833948339" y="1483.2057195571956" />
+      <point x="-665.3394833948339" y="1250.4114391143912" />
+      <point x="-209.5" y="0.0" />
+    </edge>
+    <edge source="src.component.Plant.Plant" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="102.5" y="0.0" />
+      <point x="1150.0" y="1006.5000000000001" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.component.Reproduction.Reproduction" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="159.5" y="0.0" />
+      <point x="1150.0" y="1887.0" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.system.DeadSystem.DeadSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="137.0" y="0.0" />
+      <point x="421.0" y="1509.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.system.UpdateFieldSystem.UpdateFieldSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="182.0" y="0.0" />
+      <point x="421.0" y="1139.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.system.ReproductionSystem.ReproductionSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="191.0" y="0.0" />
+      <point x="421.0" y="1805.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.system.SubAgeSystem.SubAgeSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="153.0" y="0.0" />
+      <point x="421.0" y="1583.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.component.PrintComponent.PrintComponent" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="177.5" y="0.0" />
+      <point x="1150.0" y="1755.0" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.component.MeatMatiralComponent.MeatMaterialComponent" target="src.component.MatiralComponent.MaterialComponent" relationship="REALIZATION">
+      <point x="232.500380073801" y="0.0" />
+      <point x="703.0" y="1909.0" />
+      <point x="703.0" y="1983.0" />
+      <point x="-197.5" y="0.0" />
+    </edge>
+    <edge source="src.system.PhotosynthesisSystem.PhotosynthesisSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="198.0" y="0.0" />
+      <point x="421.0" y="1287.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.system.MoveSystem.MoveSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="138.0" y="0.0" />
+      <point x="421.0" y="1731.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.component.HPDeadComponent.HPDeadComponent" target="src.component.DeadComponent.DeadComponent" relationship="REALIZATION">
+      <point x="202.5" y="0.0" />
+      <point x="647.0" y="972.0" />
+      <point x="647.0" y="1080.5" />
+      <point x="-183.5" y="0.0" />
+    </edge>
+    <edge source="src.component.Move.Move" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="106.5" y="0.0" />
+      <point x="1150.0" y="1657.5" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.system.PrintSystem.PrintSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="131.0" y="0.0" />
+      <point x="421.0" y="1213.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.component.Wolf.Wolf" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="101.5" y="0.0" />
+      <point x="1322.5" y="2091.8357933579337" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="src.system.AgeSystem.AgeSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="128.0" y="0.0" />
+      <point x="421.0" y="1657.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.component.AgeComponent.AgeComponent" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="174.5" y="0.0" />
+      <point x="1150.0" y="1189.0" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.component.PositionComponent.PositionComponent" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="200.5" y="0.0" />
+      <point x="1322.5" y="900.5" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="src.component.EatComponent.EatComponent" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="168.5" y="0.0" />
+      <point x="1150.0" y="1475.0" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.system.EatSystem.EatSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="122.0" y="0.0" />
+      <point x="421.0" y="1435.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="src.component.HPComponent.HPComponent" target="src.component.Component.Component" relationship="REALIZATION">
+      <point x="166.5" y="0.0" />
+      <point x="1150.0" y="1332.0" />
+      <point x="1150.0" y="1529.25" />
+      <point x="-147.5" y="0.0" />
+    </edge>
+    <edge source="src.system.GemmationSystem.GemmationSystem" target="src.system.System.System" relationship="REALIZATION">
+      <point x="179.0" y="0.0" />
+      <point x="421.0" y="1361.5" />
+      <point x="421.0" y="1472.5" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3904899135446686" showDependencies="false" x="402.0" y="1435.0" />
+  <SelectedNodes>
+    <node>src.component.LeafMatiralComponent.LeafMaterialComponent</node>
+    <node>src.component.MeatMatiralComponent.MeatMaterialComponent</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
